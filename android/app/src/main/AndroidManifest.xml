@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.prototipo_app">
+    package="com.dallahugen.podemisturar">
    <application
-        android:label="prototipo_app"
+        android:label="pode_misturar"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
