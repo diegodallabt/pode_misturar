@@ -17,4 +17,4 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 =======
 # pode_misturar
->>>>>>> e187c848b3a2247985f384df59c571b12c9f205f
+> e187c848b3a2247985f384df59c571b12c9f205f
