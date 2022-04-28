@@ -27,15 +27,9 @@ class InitialScreen extends StatelessWidget {
           ),
           Spacer(),
           ButtonPrimary('Fazer teste'),
-          SubTitle(
-              "Verifique se sua mistura pode ser feita\nsem causar nenhum problema!",
-              0.0,
-              27.0,
-              0.0,
-              0.0),
+          SubTitle("Verifique se sua mistura pode ser feita\nsem causar nenhum problema!", 0.0, 27.0, 0.0, 0.0),
           Spacer(),
-          SubTitle("Todos os direitos reservados à PodeMisturar?.", 0.0, 0.0,
-              0.0, 20.0),
+          SubTitle("Todos os direitos reservados à PodeMisturar?.", 0.0, 0.0, 0.0, 20.0),
         ],
       ),
     );
