@@ -1,20 +1,11 @@
-<<<<<<< HEAD
-# prototipo_app
+# Pode misturar?
 
-A new Flutter project.
+Aplicativo de verificação de misturas químicas.
 
-## Getting Started
+# Em desenvolvimento
 
-This project is a starting point for a Flutter application.
+Ainda estamos trabalhando no desenvolvimento da aplicação, mas em breve esperamos postar resultados satisfatórios! :)
 
-A few resources to get you started if this is your first Flutter project:
+![Imagem em desenvolvimento](https://meuelevador.com/wp-content/uploads/2017/12/142111-como-avaliar-se-a-manutencao-de-elevadores-foi-feita-corretamente.jpg "Estamos trabalhando no código!")
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# pode_misturar
->>>>>>> e187c848b3a2247985f384df59c571b12c9f205f
+> e187c848b3a2247985f384df59c571b12c9f205f
