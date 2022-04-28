@@ -4,8 +4,8 @@ import '../core/core.dart';
 
 class ButtonPrimary extends StatelessWidget {
   final String _text;
-
-  ButtonPrimary(this._text);
+  final Function _buttonResponse;
+  ButtonPrimary(this._text, this._buttonResponse);
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
@@ -17,7 +17,7 @@ class ButtonPrimary extends StatelessWidget {
         primary: AppColors.blueBtn,
       ),
       child: Text(_text, style: AppFonts.title),
-      onPressed: () => {},
+      onPressed: () => _buttonResponse(),
     );
   }
 }

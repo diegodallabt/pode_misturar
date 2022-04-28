@@ -4,6 +4,7 @@ export 'fonts.dart';
 
 // screens
 export '../screens/initial_screen.dart';
+export '../screens/alert.dart';
 
 // widgets
 export '../widgets/button.dart';
