@@ -3,33 +3,40 @@ import 'package:google_fonts/google_fonts.dart';
 import 'colors.dart';
 
 class AppFonts {
-  static final TextStyle title = GoogleFonts.glegoo(
+  static final TextStyle initialMessage = GoogleFonts.glegoo(
     color: AppColors.white,
-    fontSize: 43,
-    fontWeight: FontWeight.w500,
+    fontSize: 24,
   );
 
-  static final TextStyle lightTitle = GoogleFonts.glegoo(
-    color: AppColors.mediumSeaGreen,
+  static final TextStyle subtitle = GoogleFonts.glegoo(
+    color: AppColors.lightGrey,
+    height: 1.20,
     fontSize: 15,
-    fontWeight: FontWeight.w400,
   );
 
-  static final TextStyle textFieldContent = GoogleFonts.glegoo(
+  static final TextStyle title = GoogleFonts.galindo(
     color: AppColors.white,
-    fontSize: 15,
-    fontWeight: FontWeight.w400,
+    fontSize: 30,
   );
 
-  static final TextStyle textFieldTitle = GoogleFonts.glegoo(
-    color: AppColors.mediumSeaGreen,
-    fontSize: 14,
-    fontWeight: FontWeight.bold,
-  );
-
-  static final TextStyle loading = GoogleFonts.glegoo(
+  static final TextStyle bigTitle = GoogleFonts.galindo(
     color: AppColors.white,
-    fontSize: 27,
-    fontWeight: FontWeight.w500,
+    height: 0.9,
+    fontSize: 48,
+  );
+
+  static final TextStyle titleAlert = GoogleFonts.galindo(
+    color: AppColors.redTitleAlert,
+    fontSize: 40,
+  );
+
+  static final TextStyle textAlertWhite = GoogleFonts.galindo(
+    color: AppColors.white,
+    fontSize: 20,
+  );
+
+  static final TextStyle textAlertBlack = GoogleFonts.galindo(
+    color: AppColors.black,
+    fontSize: 20,
   );
 }

@@ -1,14 +1,19 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  // verde
-  static final Color mediumSeaGreen = Color(0xFF3CB371);
-  static final Color seaGreen = Color(0xFF2E8B57);
-  static final Color strongGreen = Color.fromARGB(255, 7, 121, 60);
+  // bgs
+  static final Color blueBg = Color(0xFF406479);
+  static final Color blueBtn = Color(0xFF7A99EA);
 
-  // cinza
-  static final Color lightGrey = Color(0xFFACACAC);
+  // alert
+  static final Color redTitleAlert = Color(0xFFD65050);
+  static final Color yellowBg = Color(0xFFFFE58A);
+  static final Color black = Color(0xFF000000);
+  static final Color orangeBtn = Color(0xFFFFB673);
 
-  // branco
+  // subtitles
+  static final Color lightGrey = Color(0xFFCFCFCF);
+
+  // titles
   static final Color white = Color(0xFFFFFFFF);
 }
