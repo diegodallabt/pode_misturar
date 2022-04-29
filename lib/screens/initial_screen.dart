@@ -5,7 +5,7 @@ import '../core/core.dart';
 class InitialScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    void navigate() {
+    void _navigate() {
       Navigator.pushNamed(context, '/alert');
     }
 
@@ -37,7 +37,7 @@ class InitialScreen extends StatelessWidget {
           Spacer(),
           ButtonPrimary(
             'Fazer teste',
-            navigate,
+            _navigate,
           ),
           Padding(
             padding: const EdgeInsets.only(top: 20, bottom: 40),
