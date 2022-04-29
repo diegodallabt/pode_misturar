@@ -10,6 +10,7 @@ class Routes extends StatelessWidget {
       routes: {
         '/': (context) => InitialScreen(),
         '/alert': (context) => Alert(),
+        '/mix': (context) => MixScreen(),
       },
     );
   }

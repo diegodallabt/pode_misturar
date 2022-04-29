@@ -43,6 +43,7 @@ class InitialScreen extends StatelessWidget {
             padding: const EdgeInsets.only(top: 20, bottom: 40),
             child: SubTitle(
               "Verifique se sua mistura pode ser feita\nsem causar nenhum problema!",
+              AppFonts.subtitle,
             ),
           ),
           Spacer(),
@@ -50,6 +51,7 @@ class InitialScreen extends StatelessWidget {
             padding: const EdgeInsets.only(bottom: 20),
             child: SubTitle(
               "Todos os direitos reservados à PodeMisturar?.",
+              AppFonts.subtitle,
             ),
           ),
         ],
