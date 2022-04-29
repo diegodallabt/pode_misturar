@@ -14,6 +14,12 @@ class AppFonts {
     fontSize: 15,
   );
 
+  static final TextStyle subtitleWhite = GoogleFonts.glegoo(
+    color: AppColors.white,
+    height: 1.20,
+    fontSize: 15,
+  );
+
   static final TextStyle title = GoogleFonts.galindo(
     color: AppColors.white,
     fontSize: 30,

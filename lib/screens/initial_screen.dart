@@ -5,7 +5,7 @@ import '../core/core.dart';
 class InitialScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    void navigate() {
+    void _navigate() {
       Navigator.pushNamed(context, '/alert');
     }
 
@@ -37,12 +37,13 @@ class InitialScreen extends StatelessWidget {
           Spacer(),
           ButtonPrimary(
             'Fazer teste',
-            navigate,
+            _navigate,
           ),
           Padding(
             padding: const EdgeInsets.only(top: 20, bottom: 40),
             child: SubTitle(
               "Verifique se sua mistura pode ser feita\nsem causar nenhum problema!",
+              AppFonts.subtitle,
             ),
           ),
           Spacer(),
@@ -50,6 +51,7 @@ class InitialScreen extends StatelessWidget {
             padding: const EdgeInsets.only(bottom: 20),
             child: SubTitle(
               "Todos os direitos reservados à PodeMisturar?.",
+              AppFonts.subtitle,
             ),
           ),
         ],
